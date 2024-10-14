@@ -171,7 +171,7 @@ const PackageSection = () => {
 
   return (
     <div className="p-6 container mx-auto">
-      <h2 className="text-2xl font-bold text-center mb-6">Tour Packages</h2>
+      <h2 className="sm:text-4xl text-2xl font-bold text-center mb-6">Tour Packages</h2>
       <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
         {packages.map((pkg) => (
           <PackageCard key={pkg.id} pkg={pkg} openModal={openModal} />

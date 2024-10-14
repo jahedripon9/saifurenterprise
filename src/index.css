@@ -12,7 +12,10 @@ body {
     animation: fadeIn 0.3s ease-in-out forwards;
 }
 
+.modal-open {
+  overflow: hidden;
 
+}
   
 @keyframes fadeIn {
     from {

@@ -10,8 +10,9 @@ import Header1 from "../Navbar/Header1.jsx";
 import PackageSection from "../Package/PackageSection.jsx";
 import ServicesSection from "../Service/ServicesSection.jsx";
 // import PackageTab from "../Package/PackageTab.jsx"
-import TravelInfo from "../TravelInfo/TravelInfo";
+// import TravelInfo from "../TravelInfo/TravelInfo";
 import TravelPlace from "../TravelPlace/TravelPlace";
+import Divider from "./Divider.jsx";
 
 const Home = () => {
   return (
@@ -19,15 +20,22 @@ const Home = () => {
       {/* <Header /> */}
       <Header1 />
       <Hero />
-      <TravelInfo />
+      <Divider  />
+      {/* <TravelInfo /> */}
+      {/* <Divider /> */}
       <PackageSection />
       {/* <PackageTab /> */}
+      <Divider />
       <ServicesSection />
+      <Divider />
       <TravelPlace />
+      <Divider />
       <Testimonial />
       {/* <CarouselTestimonial /> */}
       <Experience />
+      <Divider />
       <AboutUs />
+      <Divider />
       <Contact />
       <Footer />
     </div>

@@ -10,7 +10,7 @@ const Modal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 flex justify-center items-center z-50 ">
+    <div className="fixed inset-0 flex justify-center items-center  ">
       <div className="bg-white rounded-lg shadow-lg max-w-lg w-full p-6 z-10 animate-modal-open ">
         <div className="flex justify-between items-center ">
           <h2 className="text-2xl font-bold">Business Information</h2>
