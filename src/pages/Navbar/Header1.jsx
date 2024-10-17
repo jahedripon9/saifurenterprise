@@ -25,7 +25,7 @@ export default function Example() {
               <span className="sr-only">Saifur Enterprise</span>
               <img alt="" src={logo} className="h-12 w-auto" />
               {/* Adjusting color and font size to match the logo */}
-              <span className="ml-6 text-3xl font-bold text-blue-700">Saifur Enterprise</span>
+              <span className="ml-6 text-2xl sm:text-3xl font-bold text-blue-700">Saifur Enterprise</span>
             </a>
           </div>
           <div className="flex lg:hidden">

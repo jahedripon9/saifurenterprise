@@ -8,6 +8,7 @@ import Feature33 from "../Feature/Feature33.jsx";
 import Hero from "../Hero/Hero";
 import Hero1 from "../Hero/Hero1.jsx";
 import Footer from "../Navbar/Footer";
+import Navigation2 from "../Navbar/Navigation2.jsx";
 // import Header from "../Navbar/Header"
 import Header1 from "../Navbar/Header1.jsx";
 import PackageSection from "../Package/PackageSection.jsx";
@@ -21,7 +22,8 @@ const Home = () => {
   return (
     <div className="">
       {/* <Header /> */}
-      <Header1 />
+      {/* <Header1 /> */}
+      <Navigation2 />
       <Hero />
       <Hero1></Hero1>
       <Divider  />

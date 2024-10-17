@@ -54,7 +54,7 @@ const Feature33 = () => {
 							<img
 								src="https://cdn.easyfrontend.com/pictures/rose.png"
 								alt=""
-								className="rounded mx-auto"
+								className="rounded-full mx-auto"
 								width="250"
 							/>
 						</div>
