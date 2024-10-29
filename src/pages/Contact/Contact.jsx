@@ -49,7 +49,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center  my-10 fade-in" id="contact">
+    <div className="min-h-screen flex items-center justify-center  my-10 fade-in" >
       <div className="bg-white p-10 rounded-xl shadow-2xl w-full max-w-4xl">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">
           Get in Touch
@@ -111,7 +111,7 @@ const Contact = () => {
           </div>
         </form>
         {/* Contact info Start */}
-        <div className="mt-8 p-8  text-center text-gray-700 transition-transform transform hover:scale-105 duration-300">
+        <div className="mt-8 p-8  text-center text-gray-700 transition-transform transform hover:scale-105 duration-300" id="contact">
         <div className="flex justify-center mb-6">
             <img className="w-24 h-auto" src={logoImage} alt="Logo" />
           </div>

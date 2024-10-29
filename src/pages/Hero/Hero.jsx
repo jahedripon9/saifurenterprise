@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <div
-      className="hero min-h-screen container mx-auto fade-in"
+      className="hero min-h-screen container mx-auto fade-in "
       style={{
         backgroundImage: "url(https://i.ibb.co.com/Vp1m13s/hero-area-bg.jpg)",
       }}
